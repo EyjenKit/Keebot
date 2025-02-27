@@ -5,7 +5,7 @@ from vk_api.longpoll import VkLongPoll, VkEventType
 TOKEN = "a515cd91a515cd91a515cd91c9a6371a1aaa515a515cd91c23df30cf49b4824ee31b871"
 
 # Авторизация в API ВКонтакте
-vk_session = vk_api.VkApi(token=TOKEN)
+vk_session = vk_api.VkApi(token="1g3CArHI5Z6yZhthe8nu")
 longpoll = VkLongPoll(vk_session)
 vk = vk_session.get_api()
 
